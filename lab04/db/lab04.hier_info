@@ -1,0 +1,26 @@
+|lab04
+Q0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+clean => inst.ACLR
+clean => inst1.ACLR
+clean => inst2.ACLR
+clean => inst3.ACLR
+clk => inst.CLK
+clk => inst1.CLK
+clk => inst2.CLK
+clk => inst3.CLK
+Load => inst23.IN0
+Load => inst11.IN0
+Load => inst13.IN0
+Load => inst15.IN0
+Load => inst17.IN0
+Count => inst24.IN1
+D0 => inst11.IN1
+Q1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+D1 => inst13.IN1
+Q2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+D2 => inst15.IN1
+Q3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+D3 => inst17.IN1
+CO <= inst31.DB_MAX_OUTPUT_PORT_TYPE
+
+
